@@ -1,0 +1,24 @@
+= ABOUT =
+This is a very simple Finite State Machine example which can be perfectly used for event driven development in embedded systems.
+
+= COMPILE =
+
+* Create a build directory
+
+$ mkdir build
+
+* exec 'cmake'
+
+$ cd build && cmake ..
+
+* type 'make'
+
+$ make
+
+= USAGE =
+
+Shift pressed event is emulated with '^' and shift release is emulated with '6'.
+To end the infinite loop just type '.'.
+
+= THANKS = 
+Thanks to barrgroup for inspiration in such as simple code.
